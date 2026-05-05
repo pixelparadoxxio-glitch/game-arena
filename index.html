@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pixel Paradoxx | Gaming Club</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Pixel Paradoxx home">
+        <span class="brand-mark">PP</span>
+        <span>Pixel Paradoxx</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="siteNav">Menu</button>
+      <nav id="siteNav" class="site-nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="team.html">Team</a>
+        <a href="events.html">Events</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <canvas id="introCanvas" width="1920" height="1080"></canvas>
+        <div class="hero-copy">
+          <p class="eyebrow">Cyberpunk esports club</p>
+          <h1>Pixel Paradoxx</h1>
+          <p class="hero-text">Competitive squads, creator nights, arcade battles, and neon-fueled community events built for players who live on the edge of the meta.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="events.html">View Events</a>
+            <a class="button ghost" href="team.html">Meet The Team</a>
+          </div>
+        </div>
+        <div class="hud">
+          <button id="playButton" type="button">Play Intro</button>
+          <button id="recordButton" type="button">Record WebM</button>
+        </div>
+      </section>
+
+      <section class="section stat-strip" aria-label="Club stats">
+        <article>
+          <strong>42</strong>
+          <span>Active players</span>
+        </article>
+        <article>
+          <strong>18</strong>
+          <span>Monthly matches</span>
+        </article>
+        <article>
+          <strong>6</strong>
+          <span>Game divisions</span>
+        </article>
+        <article>
+          <strong>24/7</strong>
+          <span>Community arena</span>
+        </article>
+      </section>
+
+      <section class="section split-section">
+        <div>
+          <p class="eyebrow">About the club</p>
+          <h2>Built for fast players, sharp creators, and loud tournament nights.</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span>01</span>
+            <h3>Esports Training</h3>
+            <p>Weekly scrims, role reviews, VOD breakdowns, and structured practice blocks for competitive teams.</p>
+          </article>
+          <article class="feature-card">
+            <span>02</span>
+            <h3>Creator Studio</h3>
+            <p>Streaming sessions, highlight edits, launch graphics, and content support for club creators.</p>
+          </article>
+          <article class="feature-card">
+            <span>03</span>
+            <h3>Arcade Arena</h3>
+            <p>Community brackets, retro nights, speedrun challenges, and leaderboard events every month.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section schedule-preview">
+        <div class="section-heading">
+          <p class="eyebrow">Next up</p>
+          <h2>Featured events</h2>
+          <a href="events.html">All events</a>
+        </div>
+        <div class="cards three">
+          <article class="event-card">
+            <time datetime="2026-05-18">May 18</time>
+            <h3>Neon Clash Cup</h3>
+            <p>Valorant and Fortnite double bracket with live casting and finals-stage lighting.</p>
+          </article>
+          <article class="event-card">
+            <time datetime="2026-05-24">May 24</time>
+            <h3>Retro Raid Night</h3>
+            <p>Pixel arcade rotations, speedrun boards, and high-score prizes for club members.</p>
+          </article>
+          <article class="event-card">
+            <time datetime="2026-06-01">Jun 01</time>
+            <h3>Creator Bootcamp</h3>
+            <p>Stream setup reviews, short-form editing drills, and thumbnail design sessions.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Pixel Paradoxx</span>
+      <span>Enter the Paradox</span>
+    </footer>
+
+    <script src="intro.js"></script>
+    <script src="site.js"></script>
+  </body>
+</html>
